@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-Hant" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="莊博勛 — 數位產品設計師的電子名片">
+  <title>莊博勛 — Digital Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="monogram" href="#top" aria-label="回到首頁">YC<span>°</span></a>
+    <nav aria-label="主要導覽">
+      <a href="#about" data-i18n="nav.about">關於</a>
+      <a href="#work" data-i18n="nav.work">精選事蹟</a>
+      <a href="#contact" data-i18n="nav.contact">聯絡</a>
+    </nav>
+    <div class="controls">
+      <button class="control-button" id="languageToggle" type="button" aria-label="Switch language">EN</button>
+      <button class="control-button theme-toggle" id="themeToggle" type="button" aria-label="切換色彩主題"><span class="theme-icon">☼</span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div><div class="grid-plane"></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">臺北醫學大學 · 醫學系一年級</p>
+        <h1 class="hero-name"><span class="reveal" data-i18n="hero.first">莊</span><span class="reveal delay-1" data-i18n="hero.last">博勛</span></h1>
+        <p class="hero-intro reveal delay-2" data-i18n="hero.intro">在白袍與球場之間，練習專注、合作，<br>也朝著成為能溫柔照亮他人的醫者前進。</p>
+        <div class="hero-actions reveal delay-3">
+          <a class="button button-primary magnetic" href="#contact"><span data-i18n="hero.cta">一起創造些什麼</span><i>↗</i></a>
+          <a class="text-link" href="#about" data-i18n="hero.scroll">向下探索 <span>↓</span></a>
+        </div>
+      </div>
+      <div class="portrait-wrap" aria-label="莊博勛的抽象數位肖像">
+        <div class="portrait-card tilt-card">
+          <div class="portrait-halo"></div>
+          <div class="portrait-face"><span class="face-line line-a"></span><span class="face-line line-b"></span><span class="face-line line-c"></span></div>
+          <p>DESIGNING<br>FOR <em>WONDER.</em></p>
+          <div class="portrait-meta"><span>FRESHMAN / 01</span><span>TAIPEI, TW</span></div>
+        </div>
+        <div class="float-tag tag-top">✦ Basketball &amp; Medicine</div>
+        <div class="float-tag tag-bottom">TMU · Class of 2032</div>
+      </div>
+      <div class="hero-footer"><span data-i18n="hero.role">醫學新鮮人 · 籃球愛好者 · 終身學習者</span><span class="scroll-dot"></span><span>© 2026</span></div>
+    </section>
+
+    <section class="about section-shell" id="about">
+      <div class="section-label"><span>01</span><span data-i18n="about.label">關於我</span></div>
+      <div class="about-layout">
+        <h2 class="section-title split-text" data-i18n="about.title">我相信好的設計，<br><i>會留下感覺。</i></h2>
+        <div class="about-detail">
+          <p data-i18n="about.body">嗨，我是博勛，目前是臺北醫學大學醫學系一年級。從解剖課的細節到球場上的傳球，我相信每一次專注投入，都是理解人與世界的開始。</p>
+          <p data-i18n="about.body2">課餘時間，我最喜歡和隊友在球場上揮灑汗水。籃球教會我信任、溝通與永不輕言放棄的精神。</p>
+          <a class="text-link" href="#work" data-i18n="about.link">認識我的旅程 <span>→</span></a>
+        </div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card"><strong data-count="1">0</strong><span data-i18n="stats.years">醫學系的第一年</span></div>
+        <div class="stat-card"><strong data-count="5">0</strong><span data-i18n="stats.products">號球衣</span></div>
+        <div class="stat-card"><strong data-count="3">0</strong><span data-i18n="stats.countries">堂最喜歡的課</span></div>
+        <div class="stat-card"><strong>∞</strong><span data-i18n="stats.coffee">次持續練習</span></div>
+      </div>
+    </section>
+
+    <section class="achievements section-shell" id="work">
+      <div class="section-label"><span>02</span><span data-i18n="work.label">精選事蹟</span></div>
+      <h2 class="section-title split-text" data-i18n="work.title">一些把想像<br><i>變成現實的時刻。</i></h2>
+      <div class="project-list">
+        <article class="project-card project-a"><div class="project-number">01</div><div class="project-art art-a"><span>TIP<br>OFF</span><div class="art-disc"></div></div><div class="project-info"><p>2026 · BASKETBALL</p><h3 data-i18n="project.one.title">從每一次傳球，學會相信隊友</h3><span data-i18n="project.one.desc">系隊日常與球場筆記</span></div><a href="#contact" class="round-link" aria-label="查看專案">↗</a></article>
+        <article class="project-card project-b"><div class="project-number">02</div><div class="project-art art-b"><span>ANATOMY</span><div class="art-ring"></div></div><div class="project-info"><p>2026 · MEDICINE</p><h3 data-i18n="project.two.title">在細節中認識生命的精密</h3><span data-i18n="project.two.desc">醫學院新鮮人的學習日記</span></div><a href="#contact" class="round-link" aria-label="查看專案">↗</a></article>
+        <article class="project-card project-c"><div class="project-number">03</div><div class="project-art art-c"><span>05</span><div class="art-cube"></div></div><div class="project-info"><p>2026 · COMMUNITY</p><h3 data-i18n="project.three.title">用熱情連結每一個並肩的人</h3><span data-i18n="project.three.desc">校園志工與社團生活</span></div><a href="#contact" class="round-link" aria-label="查看專案">↗</a></article>
+      </div>
+    </section>
+
+    <section class="play section-shell">
+      <div class="play-card tilt-card"><div><p class="eyebrow" data-i18n="play.eyebrow">CURRENTLY EXPLORING</p><h2 data-i18n="play.title">我最近著迷於<br><i>聲音與空間。</i></h2><p data-i18n="play.body">用程式把台北的雨聲，編織成一場可觸摸的視覺演出。</p></div><div class="sound-visualizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="play-stamp">SIDE PROJECT<br>NO. 08 ✦</span></div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <div class="section-label"><span>03</span><span data-i18n="contact.label">聯絡我</span></div>
+      <div class="contact-content"><p class="eyebrow" data-i18n="contact.eyebrow">HAVE A BRIGHT IDEA?</p><h2 class="contact-title split-text" data-i18n="contact.title">讓我們一起<br><i>把它變得精彩。</i></h2><a class="email-link magnetic" href="mailto:hello@yi-cheng.design">hello@yi-cheng.design <span>↗</span></a></div>
+      <footer><div class="socials"><a href="#contact">Instagram</a><a href="#contact">LinkedIn</a><a href="#contact">Behance</a><a href="#contact">Threads</a></div><p data-i18n="footer">以好奇心製作於台北 · 2026</p><a href="#top" class="back-top" aria-label="回到頁首">↑</a></footer>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+  <script src="profile.js"></script>
+</body>
+</html>

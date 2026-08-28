@@ -1,0 +1,6 @@
+/* Brighter campus-day palette and basketball-inspired highlights. */
+:root{--bg:#f7f8fc;--panel:#ffffff;--text:#18203a;--muted:#65708c;--line:rgba(24,32,58,.14);--accent:#ff6b35;--orb1:#76b9ff;--orb2:#ffb44c;color-scheme:light}
+html[data-theme="dark"]{--bg:#101827;--panel:#172235;--text:#f8fbff;--muted:#afbbce;--line:rgba(255,255,255,.16);--accent:#ffb347;--orb1:#236fbe;--orb2:#fc784c;color-scheme:dark}
+.play-card{background:linear-gradient(135deg,#216bb6,#6ba8e6 48%,#ffc56e)}
+.portrait-face{background:linear-gradient(125deg,#1c3158,#cce7ff 47%,#f57b49)}
+.art-a{background:#bfe5ff}.art-b{background:#253f75}.art-c{background:#ffd775}
